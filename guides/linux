@@ -59,3 +59,9 @@ After that, source .bashrc before using the commands. Another option is using th
 # packet tracker installation:
 Follow this guide: https://github.com/PetrusNoleto/Error-in-install-cisco-packet-tracer-in-ubuntu-23.10-Dependency-is-not-satisfiable-libgl1-mesa-glx?tab=readme-ov-file
 Using snap is needed for this installation
+
+# samsung monitor
+Check which port for PC when plugging the HDMI cable
+Try tinkering with the refresh rate and resolution
+Change the DVD or anything the TV said to PC
+Hope it works by crossing fingers
