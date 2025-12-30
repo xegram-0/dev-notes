@@ -1,10 +1,13 @@
 Default apps:
-    Libre Wolf (now that firefox is not good)
+
+    Zen Browser for look OR Libre Wolf for max sercurity
     Transmission (it is default for many distro and did its job)
     VSCodium
+	LazyVim
     Thunar/Nautilus is much preferable (dolphin is not smoothly enough)
     Konsole (or any terminal that offers green on black theme with transparent toggle)
-    Clementine (by far the best for my use) UPDATED: VLC (enable multi instance)
+    Elisa is much better as it can be installed without worrying about aur in arch system
+		Clementine (by far the best for my use) UPDATED: VLC (enable multi instance)
     Bitwarden
     Timeshift (backup)
     VLC (watch mkv files)
