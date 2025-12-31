@@ -7,7 +7,8 @@ Need improvements:
 1. The clock does not show seconds by defaults
 2. Cannot play game
 3. Sometimes things cannot be consistent such as waybar or dns
-
+4. The app menu needs something like a back function. 
+5. Menu requires to search function at depth level instead of just the current level
 
 
 Guides on EFI
