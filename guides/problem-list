@@ -1,1 +1,7 @@
-# A list contains problems of linux I encountered 
+# A list contains problems of linux I encountered
+
+Cisco anyConnect
+Need to update the repository:
+sudo add-apt-repository deb http://gb.archive.ubuntu.com/ubuntu jammy main
+sudo apt update
+sudo apt install libwebkit2gtk-4.0-dev
