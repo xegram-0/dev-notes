@@ -9,3 +9,8 @@ Use the this-is-the-name for github naming convention.
 Case 3: Move multiple files in git repo
 mv dir1/file1 dir1/file2 dir2/
 mv dir/* DIR/
+
+Case 4: Login
+Setup username and email:
+    git config --global user.name ""
+    git config --global user.email ""
