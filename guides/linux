@@ -74,3 +74,19 @@ Hope it works by crossing fingers
 4. The game does not download but check the folders containing the files
 5. Wait for it doing its work
 6. Enjoy
+
+# Install tar.gz archive
+Source: https://askubuntu.com/questions/639389/install-tar-gz-but-no-configure-folder-on-install-file
+"To install it, I suggest you to move the folder to /opt/ by running
+
+sudo mv ~/Downloads/RoKiSim/ /opt/
+
+to make the program executable by running
+
+chmod +x /opt/RoKiSim/bin/RoKiSim
+
+and to add a symbolic link to /usr/bin/ by running
+
+sudo ln -s /opt/RoKiSim/bin/RoKiSim /usr/bin/rokisim
+
+After that, you'll be able to run the program just by running rokisim."
