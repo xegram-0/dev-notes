@@ -90,3 +90,22 @@ and to add a symbolic link to /usr/bin/ by running
 sudo ln -s /opt/RoKiSim/bin/RoKiSim /usr/bin/rokisim
 
 After that, you'll be able to run the program just by running rokisim."
+
+# USB Format
+1. lsblk
+# Locate by using this command before and after plugging
+# Or notice the storage amount
+2. sudo wipefs -a /dev/sdX
+# This is faster than dd
+# sda1 for usb stick
+3. sudo fdisk /dev/sdX
+    o > n > p > [number] > w
+4. sudo mkfs.ntfs /dev/sdX1
+# Ntfs problem
+5. sudo mkdir /mnt/usb
+6. sudo mount /dev/sdX1 /mnt/usb
+
+# There is a problem with ntfs whenever plugged to linux system
+# Twice this issue happened
+# Seem to be file system problem
+# DO NOT EJECT OR UNPLUG WITHOUT DOING PROPER UNMOUNT FROM THE FILE EXPLORER

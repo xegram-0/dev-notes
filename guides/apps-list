@@ -1,23 +1,23 @@
 Default apps:
-    Zen Browser for look OR Libre Wolf for max sercurity
-    Transmission (it is default for many distro and did its job)
-    VSCodium
-	  LazyVim
-    Thunar/Nautilus is much preferable (dolphin is not smoothly enough)
-    Konsole (or any terminal that offers green on black theme with transparent toggle)
-    Elisa is much better as it can be installed without worrying about aur in arch system
-  	Clementine (by far the best for my use) UPDATED: VLC (enable multi instance)
-    Bitwarden
-    Timeshift (backup)
-    VLC (watch mkv files)
-    Libre office
-    iBus (Vietnamese typing)
-		Clock
-		ufw
-		jetbrains stuff
-    TexStudio
-    Local send (Sending clipboard and files)
-    ytDownloader-cli
+    1. Zen Browser for look OR Libre Wolf for max sercurity
+    2. Transmission (it is default for many distro and did its job)
+    3. VSCodium
+	  4. LazyVim
+    5. Thunar/Nautilus is much preferable (dolphin is not smoothly enough)
+    6. Konsole (or any terminal that offers green on black theme with transparent toggle)
+    7. Elisa is much better as it can be installed without worrying about aur in arch system
+  	8. Clementine (by far the best for my use) UPDATED: VLC (enable multi instance)
+    9. Bitwarden
+    10. Timeshift (backup)
+    11. VLC (watch mkv files)
+    12. Libre office
+    13. iBus (Vietnamese typing)
+		14. Clock
+		15. ufw
+		16. jetbrains stuff
+    17. TexStudio
+    18. Local send (Sending clipboard and files)
+    19. ytDownloader-cli
 Maybe:
 	VirtualBox
 	UnRar
