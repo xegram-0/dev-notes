@@ -107,3 +107,12 @@ Customized commands
     yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" --merge-output-format mp4 "$@"
   }
   After that, source .bashrc before using the commands. Another option is using the script should the process is complex.
+
+File installation
+  1. Move to the tar file to /opt
+  2. Make it executable
+  chmod +x [file]
+  3. Create symbolic link to /usr/bin: sudo ln -s [current file location] [usr/...]
+  4. Open terminal and type its name to run the program
+  (Source: https://askubuntu.com/questions/639389/install-tar-gz-but-no-configure-folder-on-install-file)
+  Nowadays, we can just put the tar file either extract it or drag to the store of your linux distro
