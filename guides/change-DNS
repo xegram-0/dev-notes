@@ -1,15 +1,20 @@
 1. Change DNS on the network settings
 # Keep the automatic option off for DNS
 # This would result in inconsistent DNS Change
+
 2. Sudo nano etc/systemd/resolved.conf
+
 3. Search and remove # for DNS lines
     DNSoverTLS=YES
+
 4. Input cloudflare DNS:
     DNS=1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com 2606:4700:4700::1111#cloudflare-dns.com 2606:4700:4700::1001#cloudflare-dns.com
+
 5. To put the DNS into effect: 
     sudo systemctl restart systemd-resolved 
 # This will not change permanently as you have to manually type this line in order to change DNS
 # There is also etc/resolvd.conf but does nothing
+
 Windows stuff:
 6. For DNS over HTTP template using the .3: 
 https://family.cloudflare-dns.com/dns-query
