@@ -130,3 +130,15 @@ After that, you'll be able to run the program just by running rokisim."
 # Set it to windows mode and connect like usual
 
 # Mouse and headphone is straight forward with bit of tinkling for headphone audio
+#
+1. Download and burn a iso to usb via Rufus if Windows
+# This should be a single boot usb
+# As using multi-boot would later result in errors
+# It works but troublesome later on for some reasons
+# When booting for Thinkpad/Omen
+2. For windows, log in and use advanced startup.
+3. Select usb boot option (can be hidden at the last page)
+4. Proceed with linux installation
+---------------------------------------
+# As of today, the grub boot load menu still cannot detect Windows
+# Need to go for UEFI menu to boot in Windows if needed
