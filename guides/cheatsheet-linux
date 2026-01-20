@@ -1,1 +1,1 @@
-
+echo $XDG_SESSION_TYPE             #check X11 or wayland
