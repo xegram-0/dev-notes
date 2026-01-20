@@ -1,1 +1,45 @@
 echo $XDG_SESSION_TYPE             #check X11 or wayland
+sudo fwupdmgr update
+# check system boottime
+systemd-analyze time
+# display information of the system
+uname -a # for all the stuff
+# link bash cmd with config
+alias ls="ls --color=auto"
+# unalias
+mkdir -p {}
+#enable a service
+sudo systemctl enable --now [service]
+# check it status
+sudo systemctl status [service]
+head and tail -n 5
+journalctl
+touch [1..3].txt
+ln -s create link
+find -name -type
+chmod chown chgrp umask 
+# default file permissions
+finger
+# neofetch << fastfetch 
+# same but with the name indicated the difference
+gsconnect if kde connect failed
+# debian does not have its bluetooth gui
+# gnome blur shell is a joke
+tac and cat 
+# same but reverse order of display
+ncdu # gui disk analyzer
+# grep is to find a specific text 
+# within the file and can use with other commands
+# not fully riceable
+# defauft theme is not good looking enough
+# to run a train in the terminal
+# smb password
+# check ip address of the server pc since it can 
+# be changed
+# kde hates 
+# not as lightweight as I thought
+# constant crash on the theme shops
+# despite being highly customizable, things can get
+# buggy and out of place
+# this de can get too hot
+# the shop is slow
