@@ -1,0 +1,109 @@
+# A list contains problems of linux I encountered
+
+Cisco anyConnect
+  Need to update the repository:
+  sudo add-apt-repository deb http://gb.archive.ubuntu.com/ubuntu jammy main
+  sudo apt update
+  sudo apt install libwebkit2gtk-4.0-dev
+
+Torrent
+  1. Stop the torrent
+  2. Create new destination
+  3. Move the torrent folders/files
+  4. Set the location to new location in the torrent client
+  5. Force recheck
+  6. Check the torrent as it should display a running progress bar
+  7. Star the torrent
+  
+  # The setting location might be tricky so try selecting different folder setup till the bar is green
+  # Double check the folder path so you will not get headache
+
+USB Format
+  1. lsblk
+  # Locate by using this command before and after plugging
+  # Or notice the storage amount
+  2. sudo wipefs -a /dev/sdX
+  # This is faster than dd
+  # sda1 for usb stick
+  3. sudo fdisk /dev/sdX
+      o > n > p > [number] > w
+  4. sudo mkfs.ntfs /dev/sdX1
+  # Ntfs problem
+  5. sudo mkdir /mnt/usb
+  6. sudo mount /dev/sdX1 /mnt/usb
+  # There is a problem with ntfs whenever plugged to linux system
+  # Twice this issue happened
+  # Seem to be file system problem
+  # DO NOT EJECT OR UNPLUG WITHOUT DOING PROPER UNMOUNT FROM THE FILE EXPLORER
+
+Bluetooth disconnecting in linux
+  # Whatever guides online, they just do not work until this:
+  # (https://bbs.archlinux.org/viewtopic.php?id=249637)
+  
+  1. Get in bluetoothctl
+  2. Remove the device based on MAC adddress
+  3. Power off
+  4. Agent KeyboardDisplay
+  5. default-Agent
+  6. power on
+  7. scan on
+  8. trust -> pair -> connect
+  
+  # Totally failure: Keyboard
+  # Only the controller, mouse and headphone are good to go without disconnecting
+  
+  # For controller, proceed with all the step above
+  # Model Gulikit Controller XW
+  # Set it to windows mode and connect like usual
+  
+  # Mouse and headphone is straight forward with bit of tinkling for headphone audio
+
+ISO installation
+  1. Download and burn a iso to usb via Rufus if Windows
+  # This should be a single boot usb
+  # As using multi-boot would later result in errors
+  # It works but troublesome later on for some reasons
+  # When booting for Thinkpad/Omen
+  2. For windows, log in and use advanced startup.
+  3. Select usb boot option (can be hidden at the last page)
+  4. Proceed with linux installation
+  ---------------------------------------
+  # As of today, the grub boot load menu still cannot detect Windows
+  # Need to go for UEFI menu to boot in Windows if needed
+
+Packet tracker
+  Follow this guide: https://github.com/PetrusNoleto/Error-in-install-cisco-packet-tracer-in-ubuntu-23.10-Dependency-is-not-satisfiable-libgl1-mesa-glx?tab=readme-ov-file
+  Using snap is needed for this installation
+
+Samsung monitor
+  Check which port for PC when plugging the HDMI cable
+  Try tinkering with the refresh rate and resolution
+  Change the DVD or anything the TV said to PC
+  Hope it works by crossing fingers
+
+Game storage
+  1. Open steam
+  # If moving files to steam folders after opening steam, relauch it
+  2. Search the game
+  3. Click on downloading the game
+  4. The game does not download but check the folders containing the files
+  5. Wait for it doing its work
+  6. Enjoy
+
+Install tar.gz archive
+  Source: https://askubuntu.com/questions/639389/install-tar-gz-but-no-configure-folder-on-install-file
+  "To install it, I suggest you to move the folder to /opt/ by running
+  
+  sudo mv ~/Downloads/RoKiSim/ /opt/                  # to make the program executable by running
+  chmod +x /opt/RoKiSim/bin/RoKiSim                   # and to add a symbolic link to /usr/bin/ by running
+  sudo ln -s /opt/RoKiSim/bin/RoKiSim /usr/bin/rokisim
+  After that, you'll be able to run the program just by running rokisim."
+
+Customized commands
+  1. Using alias
+  example: alias yt='....'
+  2. Using bash function
+  example: yt() {
+    yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" --merge-output-format mp4 "$@"
+  }
+  After that, source .bashrc before using the commands. Another option is using the script should the process is complex.
