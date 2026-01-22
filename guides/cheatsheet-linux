@@ -3,7 +3,7 @@ sudo fwupdmgr update               # check system boottime
 systemd-analyze time               # display information of the system
 uname -a                           # for all the stuff
 alias ls="ls --color=auto"         # link bash cmd with config
-mkdir -p {}
+mkdir -p {}                        # create multiple directory within {}
 #enable a service
 sudo systemctl enable --now [service]
 # check it status
