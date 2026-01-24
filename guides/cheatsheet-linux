@@ -1,11 +1,10 @@
-echo $XDG_SESSION_TYPE             # check X11 or wayland
-sudo fwupdmgr update               # check system boottime
-systemd-analyze time               # display information of the system
-uname -a                           # for all the stuff
-alias ls="ls --color=auto"         # link bash cmd with config
-mkdir -p {}                        # create multiple directory within {}
-#enable a service
-sudo systemctl enable --now [service]
+echo $XDG_SESSION_TYPE       # check X11 or wayland
+sudo fwupdmgr update              # check system boottime
+systemd-analyze time                # display information of the system
+uname -a                            # for all the stuff
+alias ls="ls --color=auto"          # link bash cmd with config
+mkdir -p {}                       # create multiple directory within {}
+sudo systemctl enable --now [service] # enable a service
 # check it status
 sudo systemctl status [service]
 head and tail -n 5
