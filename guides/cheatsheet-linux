@@ -11,8 +11,6 @@ journalctl
 touch [1..3].txt
 ln -s create link
 find -name -type
-chmod chown chgrp umask 
-# default file permissions
 finger
 tac and cat 
 # same but reverse order of display
