@@ -37,3 +37,4 @@ Maybe:
     USB writer (when distro jumping)
     Peazip (depend)
     KDE connect (not good for iphone-linux connection anymore)
+    net-tools
