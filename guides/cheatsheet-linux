@@ -16,3 +16,4 @@ tac and cat
 # same but reverse order of display
 ncdu # gui disk analyzer
 route -n # show IP only
+source bash script for it to take affect
