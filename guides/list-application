@@ -1,38 +1,41 @@
+Reminder: Qt for KDE, GTK for Gnome
 Default apps:
-    01. Zen Browser for look OR Libre Wolf for max sercurity
-    02. Transmission (it is default for many distro and did its job)
-    03. VSCodium
+    01. Zen Browser
+    02. Transmission
+    03. Steam
 	04. LazyVim
-    05. Thunar/Nautilus is much preferable (dolphin is not smoothly enough)
-    06. Konsole (or any terminal that offers green on black theme with transparent toggle)
-    07. Elisa is much better as it can be installed without worrying about aur in arch system
-  	08. Clementine (by far the best for my use) UPDATED: VLC (enable multi instance)
+    05. Thunar/Nautilus
+    06. Konsole
+    07. Elisa
+  	08. UnRar
     09. Bitwarden
-    10. Timeshift (backup)
-    11. VLC (watch mkv files)
+    10. Timeshift
+    11. VLC
     12. Libre office
     13. iBus (Vietnamese typing)
 	14. Clock
 	15. ufw
-	16. jetbrains stuff
+	16. jetbrains IDE
     17. TexStudio
-    18. Local send (Sending clipboard and files)
+    18. Local send
     19. ytDownloader-cli
+	20. Discord
 Maybe:
+	Haruna (KDE)
+	Libre Wolf
+	VSCodium
+	Clementine 
 	VirtualBox
-	UnRar
+	ProtonPlus
 	Anki
 	ytDownloader
 	Drawing
 	Brave (as backup)
-    Steam (use for windows apps or just play games)
     Wine (like above but in the terminal)
-    Discord
-    Draw (like PirateSoftware)
+    Draw
     Hakuneko (manga downloader)
     Nicotine+ (not drug, a gui soulseeker)
     Windows tiling system
-    Nvidia (if I do use one has it)
     OBS
     USB writer (when distro jumping)
     Peazip (depend)
