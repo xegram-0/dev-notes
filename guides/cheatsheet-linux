@@ -17,3 +17,4 @@ tac and cat
 ncdu # gui disk analyzer
 route -n # show IP only
 source bash script for it to take affect
+source ~/.config/fish/config.fish # fish requires different script file, not bash
