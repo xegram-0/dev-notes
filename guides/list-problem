@@ -116,3 +116,10 @@ File installation
   4. Open terminal and type its name to run the program
   (Source: https://askubuntu.com/questions/639389/install-tar-gz-but-no-configure-folder-on-install-file)
   Nowadays, we can just put the tar file either extract it or drag to the store of your linux distro
+
+CatchyOS with LocalSend Port Disconnection
+ 1. Due to the port banned, the app can only send but cannot receive
+ 2. Do:
+	sudo ufw allow 53317/tcp
+	sudo ufw allow 53317/udp
+	sudo ufw reload
