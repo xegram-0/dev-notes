@@ -123,3 +123,13 @@ CatchyOS with LocalSend Port Disconnection
 	sudo ufw allow 53317/tcp
 	sudo ufw allow 53317/udp
 	sudo ufw reload
+
+KDE Vietnamese Keyboard
+ 1. sudo pacman -S fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-unikey
+ 2. nano ~/.xprofile
+	export GTK_IM_MODULE=fcitx
+	export QT_IM_MODULE=fcitx
+	export XMODIFIERS=@im=fcitx
+ 3. Reboot
+ 4. Open Settings/Virutal Keyboard
+ 5. Input Method
