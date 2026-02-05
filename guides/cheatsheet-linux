@@ -19,4 +19,5 @@ route -n # show IP only
 source bash script for it to take affect
 source ~/.config/fish/config.fish # fish requires different script file, not bash
 sudo make install # installing a tar.gz file
+java -jar #run file
 
