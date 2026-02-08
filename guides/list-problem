@@ -135,3 +135,16 @@ KDE Vietnamese Keyboard
  5. Input Method
 Further issue with input windows: Constant Vietnamese and changing to it whenever it wants.
 So far cannot do anything about this but to remove the unikey keboard until needed.
+
+HP Printer Connection not Found
+
+sudo ufw allow 5353/udp
+sudo ufw allow 631/tcp
+sudo ufw allow 9100/tcp
+
+sudo ufw disable
+lpinfo -v
+
+sudo cupsctl --remote-any --share-printers
+sudo systemctl restart cups
+However there was no connection even after disabling firewall, need to use direct IP connection.
