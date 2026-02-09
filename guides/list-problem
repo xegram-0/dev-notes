@@ -148,3 +148,4 @@ lpinfo -v
 sudo cupsctl --remote-any --share-printers
 sudo systemctl restart cups
 However there was no connection even after disabling firewall, need to use direct IP connection.
+The IP connection seems to work.
