@@ -21,5 +21,5 @@ source ~/.config/fish/config.fish # fish requires different script file, not bas
 sudo make install # installing a tar.gz file
 java -jar #run file
 bat # a better cat cmd
-dontnowwhattowrite
+dontnowwhattow
 
