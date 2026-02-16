@@ -2,7 +2,7 @@
 # Keep the automatic option off for DNS
 # This would result in inconsistent DNS Change
 
-2. Sudo nano etc/systemd/resolved.conf
+2. Sudo nano /etc/systemd/resolved.conf
 
 3. Search and remove # for DNS lines
     DNSoverTLS=YES
