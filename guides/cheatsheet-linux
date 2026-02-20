@@ -23,3 +23,5 @@ java -jar #run file
 bat # a better cat cmd
 pacman -S github-cli
 prime-run %command$ #For steam launch options using nvidia gpu
+#nothing
+
