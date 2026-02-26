@@ -21,7 +21,11 @@ source ~/.config/fish/config.fish # fish requires different script file, not bas
 sudo make install # installing a tar.gz file
 java -jar #run file
 bat # a better cat cmd
+<<<<<<< HEAD
 pacman -S github-cli
 prime-run %command$ #For steam launch options using nvidia gpu
 #nothing
+=======
+
+>>>>>>> ca12bcf (Added guide)
 
