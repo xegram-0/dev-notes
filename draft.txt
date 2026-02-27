@@ -1,0 +1,142 @@
+// COS30008, Tutorial 6, 2022
+
+#include "FibonacciSequenceIterator.h"
+
+FibonacciSequenceIterator::FibonacciSequenceIterator( const FibonacciSequence& aSequenceObject, uint64_t aStart ) :
+    fSequenceObject(aSequenceObject),
+    fIndex(aStart)
+{}
+    
+FibonacciSequenceIterator::FibonacciSequenceIterator( uint64_t aLimit, uint64_t aStart ) :
+    fSequenceObject(aLimit),
+    fIndex(aStart)
+{}
+
+const uint64_t& FibonacciSequenceIterator::operator*() const
+{
+    return fSequenceObject.current();
+}
+
+FibonacciSequenceIterator& FibonacciSequenceIterator::operator++()
+{
+    fSequenceObject.advance();
+    fIndex++;
+    
+    return *this;
+}
+
+FibonacciSequenceIterator FibonacciSequenceIterator::operator++( int )
+{
+    FibonacciSequenceIterator result = *this;
+    
+    ++(*this);
+    
+    return result;
+}
+
+bool FibonacciSequenceIterator::operator==( const FibonacciSequenceIterator& aOther ) const
+{
+    return fIndex == aOther.fIndex;
+}
+
+bool FibonacciSequenceIterator::operator!=( const FibonacciSequenceIterator& aOther) const
+{
+    return !(*this == aOther);
+}
+
+FibonacciSequenceIterator FibonacciSequenceIterator::begin() const
+{
+    FibonacciSequenceIterator Result = *this;
+    
+    Result.fSequenceObject.reset();
+    Result.fIndex = 1;
+    
+    return Result;
+}
+
+FibonacciSequenceIterator FibonacciSequenceIterator::end() const
+{
+    FibonacciSequenceIterator Result = *this;
+    uint64_t lLimit = Result.fSequenceObject.getLimit();
+    
+    if ( lLimit != 0 )
+    {
+        Result.fIndex = lLimit + 1;
+    }
+    else
+    {
+        Result.fIndex = 0;
+    }
+
+    return Result;
+}
+
+
+
+
+
+// both includes are required
+#include "FibonacciSequence.h"
+#include "FibonacciSequenceIterator.h"
+
+#include <stdexcept>
+
+using namespace std;
+
+FibonacciSequence::FibonacciSequence( uint64_t aLimit )
+{
+    fPrevious = 0;
+    fCurrent = 1;
+    fPosition = 1;
+    fLimit = aLimit;
+}
+
+const uint64_t& FibonacciSequence::current() const
+{
+    return fCurrent;
+}
+
+void FibonacciSequence::advance()
+{
+    // infinite sequence or fLimit numbers (1..fLimit)
+    if ( fLimit == 0 || fPosition <= fLimit )
+    {
+        uint64_t lNext = fCurrent + fPrevious;
+        
+        fPrevious = fCurrent;
+        fCurrent = lNext;
+
+        fPosition++;
+    }
+    else
+    {
+        throw out_of_range( "Fibonacci sequence limit exceeded" );
+    }
+}
+
+const uint64_t& FibonacciSequence::getLimit() const
+{
+    return fLimit;
+}
+
+void FibonacciSequence::reset()
+{
+    fPrevious = 0;
+    fCurrent = 1;
+    fPosition = 1;
+}
+
+FibonacciSequenceIterator FibonacciSequence::begin() const
+{
+    FibonacciSequenceIterator Result( *this );
+    
+    return Result.begin();
+}
+
+FibonacciSequenceIterator FibonacciSequence::end() const
+{
+    FibonacciSequenceIterator Result( *this );
+    
+    return Result.end();
+}
+
