@@ -156,3 +156,10 @@ To display size (e.g number of files of a folders or size of a video) in KDE Dol
 1. Click the window box icon on the top left next to the forward arrow
 2. Click Show Additional Information
 3. Choose Size
+
+AppImage (Arduino, Osu!, ...)
+For CatchyOS or any other distro, if enabling the app as executable but nothing appears:
+1. Use terminal and activate the appImage using ./[appImage]
+2. See what the error is and download the missing package.
+3. In case of Arduino IDE, it was FUSE package.
+4. Download the missing package and open the appImage again.
