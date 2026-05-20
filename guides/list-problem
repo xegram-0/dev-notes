@@ -151,3 +151,8 @@ However there was no connection even after disabling firewall, need to use direc
 The IP connection seems to work.
 
 Using vdo.ninja web app on iphone as obs camera
+
+To display size (e.g number of files of a folders or size of a video) in KDE Dolphin:
+1. Click the window box icon on the top left next to the forward arrow
+2. Click Show Additional Information
+3. Choose Size
