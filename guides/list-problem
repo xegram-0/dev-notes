@@ -163,3 +163,7 @@ For CatchyOS or any other distro, if enabling the app as executable but nothing 
 2. See what the error is and download the missing package.
 3. In case of Arduino IDE, it was FUSE package.
 4. Download the missing package and open the appImage again.
+
+Dolphin - File manager
+To search with special characters, use \.
+Example: \[ for anything that start with [
