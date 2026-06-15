@@ -167,3 +167,5 @@ For CatchyOS or any other distro, if enabling the app as executable but nothing 
 Dolphin - File manager
 To search with special characters, use \.
 Example: \[ for anything that start with [
+
+Do disable group sort in Dolphine, tap the arrow icon on the upper left next to the block icon (that change the layout of the folder), and disable group.
