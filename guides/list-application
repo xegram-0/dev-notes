@@ -3,41 +3,48 @@ Default apps:
     01. Zen Browser
     02. Transmission
     03. Steam
-	04. LazyVim
-    05. Thunar/Nautilus
+	04. Vim (normal vim is enough)
+    05. Thunar/Nautilus (Dolphin if KDE)
     06. Konsole
     07. Elisa
-  	08. UnRar
+  	08. UnRar (with bash script)
     09. Bitwarden
-    10. Timeshift
-    11. VLC
+    10. Timeshift (if there is no backup from distro)
+    11. VLC (Not needed if using KDE since it has Haruna)
     12. Libre office
     13. iBus (Vietnamese typing)
 	14. Clock
 	15. ufw
-	16. jetbrains IDE
+	16. KDevelop
     17. TexStudio
     18. Local send
     19. ytDownloader-cli
 	20. Discord
+	21. ProtonPlus (deal with anti-cheat)
+	Discord (or using Web)
+	Kate (GUI text editor)
+	Ocular (PDF viewer with tabs)
 Maybe:
+	Gwenview (if default image viewer is insufficient)
+	Krita (fancy drawing app)
+	Document Viewer (Not allow multiple tabs in one sessions)
+	Jetbrains IDE
+	LazyVim
 	Haruna (KDE)
 	Libre Wolf
 	VSCodium
 	Clementine 
 	VirtualBox
-	ProtonPlus
 	Anki
 	ytDownloader
-	Drawing
 	Brave (as backup)
-    Wine (like above but in the terminal)
+    Wine
     Draw
     Hakuneko (manga downloader)
     Nicotine+ (not drug, a gui soulseeker)
     Windows tiling system
     OBS
     USB writer (when distro jumping)
-    Peazip (depend)
+    Peazip (GUI rar, hanlde passwords)
     KDE connect (not good for iphone-linux connection anymore)
     net-tools
