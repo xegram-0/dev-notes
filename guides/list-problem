@@ -169,3 +169,6 @@ To search with special characters, use \.
 Example: \[ for anything that start with [
 
 Do disable group sort in Dolphine, tap the arrow icon on the upper left next to the block icon (that change the layout of the folder), and disable group.
+
+Btop
+To display GPU statistics, download rocm_smi_lib to enable it, may have to restart but it should be a breeze
