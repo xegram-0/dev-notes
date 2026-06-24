@@ -24,6 +24,11 @@ Default apps:
 	Discord (or using Web)
 	Kate (GUI text editor)
 	Ocular (PDF viewer with tabs)
+Steganography:
+	Binwalk (embedded files)
+	File (basic information)
+	Strings (readable text)
+	xxd (hex dump)
 Maybe:
 	Gwenview (if default image viewer is insufficient)
 	Krita (fancy drawing app)
