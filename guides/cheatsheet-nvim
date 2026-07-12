@@ -28,3 +28,7 @@
 21. yy or Y for yanking the line or saving to clipboard.
 22. yyp for pasting below or yyP for pasting above.
 23. There is visual mode
+
+
+LazyVim shortcuts:
+1. Normal: Space + f + t = terminal
