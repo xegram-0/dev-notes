@@ -24,4 +24,9 @@ bat # a better cat cmd
 pacman -S github-cli
 prime-run %command$ #For steam launch options using nvidia gpu
 
-Use Ctrl + Shift + T for undo closed tab (Zen Browser)
+Use Ctrl + Shift + T for undo closed tab | Ctrl + Alt + V/H for split tabs (Zen Browser)
+dd
+git install
+gcc long cmd
+fzf
+pacman -Rns
