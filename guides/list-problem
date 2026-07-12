@@ -137,6 +137,9 @@ KDE Vietnamese Keyboard
 	Settings/Input Method (In Language and Time)
  7. Add Input Method, type Vietnamese and select Unikey
  8. Test and add Hotkey for quickswap between languages
+ 9. Click configure global options (Bottom left of Input Method)
+ 10. Remove every preconfig hotkeys and add hotkey in Toggle Input Method.
+ 11. Remember to Apply then test again
 Further issue with input windows: Constant Vietnamese and changing to it whenever it wants.
 So far cannot do anything about this but to remove the unikey keboard until needed.
 
