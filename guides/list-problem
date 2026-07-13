@@ -179,3 +179,59 @@ Do disable group sort in Dolphine, tap the arrow icon on the upper left next to 
 
 Btop
 To display GPU statistics, download rocm_smi_lib to enable it, may have to restart but it should be a breeze
+
+Github cases
+Case 1: Change name of the directory in git repo
+
+Because github does not provide means of changing directory name, only in terminal can that happen.
+    git mv <old-name> <new-name>
+Then the git commit and git push.
+
+
+Case 2: Naming convention
+
+Use the this-is-the-name for github naming convention.
+
+
+Case 3: Move multiple files in git repo
+
+    mv dir1/file1 dir1/file2 dir2/
+    mv dir/* DIR/
+
+
+Case 4: Login
+
+Setup username and email:
+    git config --global user.name ""
+    git config --global user.email ""
+
+Case 5: Create git folder
+
+    git init
+    git status
+    git add .
+    git commit -m "" # make first commit
+    git remote add origin https://github.com/username/repo-name.git
+    git branch -M main
+    git push -u origin main
+
+
+Case 6: Conflict solution
+
+    git pull origin main
+OR  git pull origin main --rebase # reconcile history
+    git add .
+    git rebase --continue
+    git push origin main  
+
+
+Case 7: Check graph
+
+    git log --oneline --all --graph
+
+CatchyOS wifi unavailable
+	lspci -nnk | grep -A3 -i network
+	rfkill list
+	sudo systemctl restart NetworkManager
+	sudo modprobe iwlwifi
+	sudo pacman -Syu linux-firmware
