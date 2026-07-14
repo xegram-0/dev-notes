@@ -235,3 +235,5 @@ CatchyOS wifi unavailable
 	sudo systemctl restart NetworkManager
 	sudo modprobe iwlwifi
 	sudo pacman -Syu linux-firmware
+
+Omachy display seconds: config waybar
