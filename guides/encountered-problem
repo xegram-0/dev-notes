@@ -237,3 +237,10 @@ CatchyOS wifi unavailable
 	sudo pacman -Syu linux-firmware
 
 Omachy display seconds: config waybar
+
+Install tar.gz
+Only do this if there is no file containing name like install or configure
+1. Use chmod +x to make it executable then run it
+2. To install, move it to /opt/
+3. Add symbolic link: sudo ln -S /opt/... /usr/bin/[cmd]
+4. Go with the [cmd]
