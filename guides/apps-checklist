@@ -15,20 +15,19 @@ Default apps:
     13. iBus (Vietnamese typing)
 	14. Clock
 	15. ufw
-	16. KDevelop
-    17. TexStudio
+	16. Kate (GUI text editor)
+    17. TexStudio (if using latex a lot)
     18. Local send
-    19. ytDownloader-cli
-	20. Discord
+    19. ytDownloader-cli (then use bash script for quick use)
+	20. Discord (or web app)
 	21. ProtonPlus (deal with anti-cheat)
-	Discord (or using Web)
-	Kate (GUI text editor)
-	Ocular (PDF viewer with tabs)
+	22.	Ocular (PDF viewer with tabs)
 Steganography:
 	Binwalk (embedded files)
 	File (basic information)
 	Strings (readable text)
 	xxd (hex dump)
+	stegdetect
 Maybe:
 	Gwenview (if default image viewer is insufficient)
 	Krita (fancy drawing app)
