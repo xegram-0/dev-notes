@@ -29,6 +29,7 @@ Steganography:
 	xxd (hex dump)
 	stegdetect
 Maybe:
+	Nexus mod AppImage
 	Gwenview (if default image viewer is insufficient)
 	Krita (fancy drawing app)
 	Document Viewer (Not allow multiple tabs in one sessions)
