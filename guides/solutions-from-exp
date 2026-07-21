@@ -222,6 +222,8 @@ CatchyOS wifi unavailable
 
 Omachy display seconds: config waybar
 
+Limine reducing time: sudo nano /boot/limine.conf
+
 Install tar.gz
 	Only do this if there is no file containing name like install or configure
 	1. Use chmod +x to make it executable then run it
