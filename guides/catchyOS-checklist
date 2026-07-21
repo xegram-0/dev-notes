@@ -4,3 +4,4 @@ CatchyOS setup when installing or default settings taking place:
 3. Overwrite .bashrc
 4. Arrange the default apps
 5. Change cursor size: Settings/Global theme/Pointer/Size 42
+Add shortcuts for new browser and terminal (since even downloading the apps does not add the customized shortcuts)
