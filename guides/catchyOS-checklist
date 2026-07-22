@@ -5,3 +5,13 @@ CatchyOS setup when installing or default settings taking place:
 4. Arrange the default apps
 5. Change cursor size: Settings/Global theme/Pointer/Size 42
 Add shortcuts for new browser and terminal (since even downloading the apps does not add the customized shortcuts)
+Settings checklist:
+- Ask for confimation (sleep and shutdown)
+- Recent files
+- Prefer smoooth scrolling
+- When dragging files/folder confirmation
+- Window activation policy
+- Window placement
+- Dark inactive
+- Virutal desktop number
+- Default apss
