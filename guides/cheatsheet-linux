@@ -17,11 +17,13 @@ tac and cat
 ncdu # gui disk analyzer
 route -n # show IP only
 source bash script for it to take affect
-source ~/.config/fish/config.fish # fish requires different script file, not bash
-sudo make install # installing a tar.gz file
+chmod u+s file      # Set SUID
+chmod g+s directory # Set SGID
+chmod +t directory  # Set sticky bit
+
 java -jar #run file
 bat # a better cat cmd
-pacman -S github-cli
+
 prime-run %command$ #For steam launch options using nvidia gpu
 
 Use Ctrl + Shift + T for undo closed tab | Ctrl + Alt + V/H for split tabs (Zen Browser)
