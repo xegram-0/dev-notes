@@ -32,3 +32,22 @@ git install
 gcc long cmd
 fzf
 pacman -Rns
+
+SQL CMD
+Some commands to remember when starting out SQL:
+
+CREATE DATABASE my_new_database;
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+sudo mysql -u root -p
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'your_password';
+PRIVILEGES
+SELECT user, host FROM mysql.user;
+
+GRANT ALL PRIVILEGES ON database_name.* TO 'new_user'@'localhost';
+SHOW GRANTS FOR 'new_user'@'localhost';
+For Linux Mint ppa problem:
+wget http://archive.ubuntu.com/ubuntu/pool/universe/liba/libaio/libaio1_0.3.112-5_amd64.deb
