@@ -32,3 +32,4 @@
 
 LazyVim shortcuts:
 1. Normal: Space + f + t = terminal
+:MasonInstall clangd codelldb clang-format
