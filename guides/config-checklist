@@ -19,7 +19,20 @@ Settings checklist:
 - Download fuse, yt-dlp
 - Dolphin shortcuts: cmd x for moving contents to other view
 
+# 🛠️ Recommended VS Code Extensions
 
+- [ ] Auto Close Tag
+- [ ] ES7+ React/Redux/React-Native Snippets
+- [ ] Path Intellisense
+- [ ] Code Spell Checker
+- [ ] Auto Rename Tag
+- [ ] ESLint
+- [ ] JavaScript (ES6) Code Snippets
+- [ ] CSS Peek
+- [ ] Prettier – Code Formatter
+- [ ] Tailwind CSS IntelliSense
+- [ ] Live Server
+- [ ] Error Lens
 Reminder: Qt for KDE, GTK for Gnome
 Default apps:
     01. Zen Browser
