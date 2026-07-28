@@ -16,10 +16,10 @@
 | 10 | Tailwind CSS IntelliSense | Autocomplete and suggestions for Tailwind CSS |
 | 11 | Live Server | Runs a local development server with live reload |
 | 12 | Error Lens | Displays errors and warnings inline |
-3. Leetcode folder includes some scripts for certain problems and sometimes multiple solutions for a problem.
-4. Linux review folder is for revaluation of Linux Distro and its major applications such as transmission or different window manager like xfce.
-5. overthewire is another challenge solutions folder that I solved during my linux journey.
-6. notes is for interesting piece of information or knowledge that I ponder over.
+# 3. Leetcode folder includes some scripts for certain problems and sometimes multiple solutions for a problem.
+# 4. Linux review folder is for revaluation of Linux Distro and its major applications such as transmission or different window manager like xfce.
+# 5. overthewire is another challenge solutions folder that I solved during my linux journey.
+# 6. notes is for interesting piece of information or knowledge that I ponder over.
 
 
 
