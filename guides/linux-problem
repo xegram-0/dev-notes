@@ -212,7 +212,9 @@ Github
 	    git push origin main  
 	
 	Case 7: Check graph: git log --oneline --all --graph
-
+	Case 8: Reset the github link
+		git remote -v (Check the current link)
+		git remote set-url [link]
 CatchyOS wifi unavailable
 	lspci -nnk | grep -A3 -i network
 	rfkill list
