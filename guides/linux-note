@@ -51,3 +51,5 @@ GRANT ALL PRIVILEGES ON database_name.* TO 'new_user'@'localhost';
 SHOW GRANTS FOR 'new_user'@'localhost';
 For Linux Mint ppa problem:
 wget http://archive.ubuntu.com/ubuntu/pool/universe/liba/libaio/libaio1_0.3.112-5_amd64.deb
+
+sudo pacman -S libheif (to read heic file)
