@@ -22,6 +22,14 @@ Important command lines:
 		sudo nano /etc/systemd/resolved.conf
 		sudo systemctl restart systemd-resolved
 
+Linux-iPhone Connection
+		sudo pacman -Syu libimobiledevice usbmuxd ifuse gvfs-afc
+		mkdir -p ~/iphone
+		ifuse ~/iphone
+		idevice_id -l
+		idevicepair pair
+		sudo systemctl restart usbmuxd (should do this after installation)
+
 Cisco anyConnect
 		  Need to update the repository:
 		  sudo add-apt-repository deb http://gb.archive.ubuntu.com/ubuntu jammy main
