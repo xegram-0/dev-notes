@@ -217,9 +217,20 @@ Github
 	    git push origin main  
 	
 	Case 7: Check graph: git log --oneline --all --graph
+	
 	Case 8: Reset the github link
 		git remote -v (Check the current link)
 		git remote set-url [link]
+
+	Case 9: View commit history
+		git log
+		git log -oneline
+		git log --pretty=format:"%h %an %ad %s" --date=short
+		git log --graph --oneline --all --decorate
+
+	Case 10: pull vs fetch
+		git fetch: Safer and gives you a chance to inspect changes first.
+		git pull: More convenient when you simply want to bring your branch up to date.
 
 CatchyOS wifi unavailable
 	lspci -nnk | grep -A3 -i network
