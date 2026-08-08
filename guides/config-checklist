@@ -61,6 +61,7 @@ Default apps:
 	24. iPhone Connection	
 	25. KolourPaint
 Steganography:
+	exiftool (more datameta)
 	Binwalk (embedded files)
 	File (basic information)
 	Strings (readable text)
