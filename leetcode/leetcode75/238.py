@@ -12,3 +12,20 @@ class Solution:
             product = 1
             nums.insert(i, tempNum)
         return tempList
+# Solution
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        resultList = [1] * n
+
+        leftProduct = 1
+        for i in range(n):
+            resultList[i] = leftProduct
+            leftProduct *= nums[i]
+
+        rightProduct = 1
+        for i in range(n - 1, -1 ,-1):
+            resultList[i] *= rightProduct
+            rightProduct *= nums[i]
+        return resultList          
+        
