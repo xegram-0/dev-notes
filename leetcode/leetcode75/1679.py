@@ -45,3 +45,20 @@ class Solution:
                 right -= 1
 
         return result
+
+# ??
+class Solution:
+    def maxOperations(self, nums: List[int], k: int) -> int:
+        total, c = 0, 0
+
+        cnt = Counter(nums)
+        
+
+        for i in cnt:
+            c += min(cnt[i], cnt[k-i])
+        
+        total = c//2
+
+
+
+        return total
