@@ -53,3 +53,6 @@ For Linux Mint ppa problem:
 wget http://archive.ubuntu.com/ubuntu/pool/universe/liba/libaio/libaio1_0.3.112-5_amd64.deb
 
 sudo pacman -S libheif (to read heic file)
+View history but not all of it: history | heada -n [number of lines] OR view the entire history in any editor cd ~/.local/share/fish/fish_history
+Burn iso into usb: sudo dd if=[path to iso] of=[/dev/[USB]] bs=4M status=progress oflag=sync
+ETA: 16 minutes
