@@ -12,6 +12,7 @@ Dual Boot with Windows
 	then save and exit without needing to source and reboot
 	Useful commands: lsblk -l or sudo fdisk -l
 	Mount point can be: mount /dev/[FAT32] /mnt then ls /mnt/EFI/Microsoft/Boot
+	ETA: 0,5 hour on iso usb process then 1 hour to install on pc
 
 DNS configuration
 		1. Change DNS on the network settings
