@@ -5,3 +5,5 @@ class Solution:
         for col in zip(*grid):
             answer += rowDict[col]
         return answer
+
+# Reference
