@@ -89,7 +89,7 @@ class Solution:
         return ""
 
         
-# Best
+# Attempted
 class Solution:
     def lexGreaterPermutation(self, s: str, target: str) -> str:
         ans = []
@@ -137,43 +137,6 @@ class Solution:
 
                 return ''.join(ans)
 
-        return ""
-# Assisted
-class Solution:
-    def lexGreaterPermutation(self, s: str, target: str) -> str:
-        ans = []
-        ansdict = {}
-        if len(s) != len(target):
-            return ""
-        for char in s:
-            ansdict[char] = ansdict.get(char, 0) + 1
-        for i in range(len(s)):
-            if target[i] in ansdict:
-                ansdict[target[i]] -= 1
-                if ansdict[target[i]] == 0:
-                    del ansdict[target[i]]
-                ans.append(target[i])
-            else:
-                break
-        for i in range(len(ans) - 1, -1, -1):
-            char = ans[i]
-            ansdict[char] = ansdict.get(char, 0) + 1
-            bigger = None
-            for c in ansdict:
-                if c > char:
-                    if bigger is None or c < bigger:
-                        bigger = c
-            if bigger is not None:
-                result = ans[:i]
-
-                result.append(bigger)
-                ansdict[bigger] -= 1
-
-                if ansdict[bigger] == 0:
-                    del ansdict[bigger]
-                for char in sorted(ansdict):
-                    ans.extend([char] * ansdict[char])
-                return ''.join(ans)
         return ""
 
 
