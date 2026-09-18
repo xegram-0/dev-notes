@@ -1,7 +1,6 @@
 class Solution:
     def nearestExit(self, maze: list[list[str]], entrance: list[int]) -> int:
         r, c = len(maze), len(maze[0])
-
         startR, startC = entrance
         queue = deque([(startR, startC)])
         maze[startR][startC] = '+'
