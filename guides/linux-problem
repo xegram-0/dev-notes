@@ -1,5 +1,13 @@
 # A list contains problems of linux I encountered
 
+Lenovo problem - Unbootable after update
+    Yesterday: Laptop worked normally.
+    Shutdown: It shut down normally after a system update.
+    Today: The laptop would not power on when pressing the power button — no power-button light, fan, or display.
+    Charging: The charging LED did light up when the charger was connected, indicating the laptop was receiving power.
+    Fix: Disconnecting the charger and using the Emergency Reset pinhole, followed by reconnecting the charger and powering on, successfully brought the laptop back to life.
+    Likely issue: The laptop was probably stuck in an abnormal power/embedded-controller state rather than having a dead battery or motherboard.
+
 Dual Boot with Windows
 	Note: For now, unless burning iso into the usb using Ventoy or Windows machine, normal burning using dd or fedora media writer would be a waste of time
 	Afer installing Windows, remove all the tracking options
