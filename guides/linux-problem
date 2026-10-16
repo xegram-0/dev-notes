@@ -14,7 +14,7 @@ Lenovo problem - Unbootable after update
 
 Dual Boot with Windows
 	Note: For now, unless burning iso into the usb using Ventoy or Windows machine, normal burning using dd or fedora media writer would be a waste of time
-	Afer installing Windows, remove all the tracking options
+	After installing Windows, remove all the tracking options
 	Apps for Windows: Bitwarden, Steam, Wemod, Zen Browser + uOrigin
 	Update the limine.conf file
 	Sudo + edit in root/boot/limine.conf at the bottom
@@ -95,7 +95,7 @@ Bluetooth disconnecting in linux
 		  # Whatever guides online, they just do not work until this:
 		  # (https://bbs.archlinux.org/viewtopic.php?id=249637)
 		  1. Get in bluetoothctl
-		  2. Remove the device based on MAC adddress
+		  2. Remove the device based on MAC address
 		  3. Power off
 		  4. Agent KeyboardDisplay
 		  5. default-Agent
@@ -174,7 +174,7 @@ KDE Vietnamese Keyboard
 	 10. Remove every preconfig hotkeys and add hotkey in Toggle Input Method.
 	 11. Remember to Apply then test again
 	Further issue with input windows: Constant Vietnamese and changing to it whenever it wants.
-	So far cannot do anything about this but to remove the unikey keboard until needed.
+	So far cannot do anything about this but to remove the unikey keyboard until needed.
 
 HP Printer Connection not Found
 	sudo ufw allow 5353/udp
