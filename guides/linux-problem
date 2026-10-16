@@ -1,5 +1,9 @@
 # A list contains problems of linux I encountered
-
+fontspec and unavailable package for latex compiler in TexStudio
+	Some compiler such as pdfLaTeX cannot process package such as ones that have fontspec.
+	Open Opitons/Configure/TeXstudio/Build
+	Set default compiler to XeLaTeX or something else that works
+	Alternatively, just make sure you do not use the package if staying with that compiler
 Lenovo problem - Unbootable after update
     Yesterday: Laptop worked normally.
     Shutdown: It shut down normally after a system update.
