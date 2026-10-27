@@ -1,4 +1,10 @@
 # A list contains problems of linux I encountered
+
+Keyboard Input is not loaded even if it shows in the input methods
+	Navigate to Settings/Keyboard/Virtual Keyboard/Fcitx5 (high chance it somehow turned back to None when updating)
+	Check config: ~/.config/fcitx5/profile if it lists all inputs
+	pgrep -a fcitx5 to know if the service is running or not
+
 fontspec and unavailable package for latex compiler in TexStudio
 	Some compiler such as pdfLaTeX cannot process package such as ones that have fontspec.
 	Open Opitons/Configure/TeXstudio/Build
